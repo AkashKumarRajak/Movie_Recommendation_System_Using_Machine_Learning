@@ -36,14 +36,14 @@ The dataset used is from TMDb (The Movie Database) and contains:
 
 - **Feature Engineering**:
   
- - Combined relevant features into a single 'tags' column
- - Converted text into lowercase, removed spaces and punctuation
- - Used Stemming with NLTK's PorterStemmer
+  - Combined relevant features into a single 'tags' column
+  - Converted text into lowercase, removed spaces and punctuation
+  - Used Stemming with NLTK's PorterStemmer
 
 - **Vectorization**:
 
-- Applied TF-IDF Vectorizer to convert text into numerical format
-- Computed cosine similarity matrix for content comparison
+  - Applied TF-IDF Vectorizer to convert text into numerical format
+  - Computed cosine similarity matrix for content comparison
 
 - **Recommendation**:
  ```python 
